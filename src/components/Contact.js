@@ -30,6 +30,7 @@ export default function Contact() {
                 method='POST'
                 name='contact'
                 data-netlify="true"
+                netlify
                 // onSubmit="submit"
             >
                 <div className='mb-6 xs:mb-8'>
