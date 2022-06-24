@@ -33,13 +33,6 @@ export default function Contact() {
                 netlify
                 onSubmit="submit"
             >
-                    <input 
-                        type="text" 
-                        placeholder='Your name *'
-                        name='name'
-                        className='contact-input'
-                        required
-                    />
                 <div className='mb-6 xs:mb-8'>
                     <input 
                         type="text" 
