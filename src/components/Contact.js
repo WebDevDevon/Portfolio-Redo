@@ -28,11 +28,18 @@ export default function Contact() {
                 className='w-auto mb-20' 
                 // action={endpoint}
                 method='POST'
-                name='contact'
+                name='contact-form'
                 data-netlify="true"
                 netlify
-                // onSubmit="submit"
+                onSubmit="submit"
             >
+                    <input 
+                        type="text" 
+                        placeholder='Your name *'
+                        name='name'
+                        className='contact-input'
+                        required
+                    />
                 <div className='mb-6 xs:mb-8'>
                     <input 
                         type="text" 
