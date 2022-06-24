@@ -1,5 +1,5 @@
 import Heading from './Heading';
-import Code from '../assets/png/coding.jpg';
+// import Code from '../assets/png/coding.jpg';
 
 export default function About() {
   return (
