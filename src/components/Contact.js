@@ -3,10 +3,26 @@ import SocialLinks from './SocialLinks';
 import Heading from './Heading';
 import Footer from './Footer';
 import Tiny from '../assets/gif/mail.gif';
+import emailjs from 'emailjs-com';
 
 // const endpoint = 'https://public.herotofu.com/v1/'; 
 
+
+
+
 export default function Contact() {   
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'template_jvvgjxe', e.target, 'user_GUnC3Jd4mNfBBDIdvBSwx')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+          e.target.reset()
+      };
     
   return (
     <div data-aos="fade-right" data-aos-duration="1000" id='contact' className='relative flex flex-col items-center justify-center'>
@@ -31,7 +47,7 @@ export default function Contact() {
                 name='contact-form'
                 data-netlify="true"
                 netlify
-                onSubmit="submit"
+                onSubmit={sendEmail}
             >
                 <div className='mb-6 xs:mb-8'>
                     <input 
