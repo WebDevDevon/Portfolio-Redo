@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import Heading from './Heading';
 
 export default function About() {

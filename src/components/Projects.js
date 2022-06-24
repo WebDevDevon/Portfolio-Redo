@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react';
 import { BsGithub } from 'react-icons/bs';
 import { projects } from '../config/projectsArr';
 import Heading from './Heading';

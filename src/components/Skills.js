@@ -1,4 +1,3 @@
-import React, { useEffect } from 'react'
 import { skills } from '../config/skillsArr';
 import Heading from './Heading';
 

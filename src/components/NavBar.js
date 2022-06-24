@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { MenuIcon, XIcon, } from '@heroicons/react/outline';
 import { EmojiHappyIcon, DocumentTextIcon, CollectionIcon, PhoneIcon } from '@heroicons/react/solid';
 import { Link } from 'react-scroll';
-import { Link as Connect } from 'react-router-dom';
 
 export default function NavBar() {
   const [active, setActive] = useState(false);
@@ -17,7 +16,7 @@ export default function NavBar() {
       <header className='fixed top-0 z-10 w-full px-6 py-4 text-slate-500 bg-navy sm:px-10 sm:py-6'>
           <div className='relative flex items-center justify-between lg:max-w-6xl lg:mx-auto font-archivo'>
             <h1 className='text-sm font-light text-transparent text-white bg-clip-text bg-gradient-to-r from-violet to-hotpink-200 md:text-base hover:cursor-pointer'>
-              <a to='/' spy={true} smooth={true}>DevonTheDev</a>
+              <a spy={true} smooth={true}>DevonTheDev</a>
             </h1>
             <button onClick={toggleMenu}>
                 <MenuIcon className='w-6 h-6 md:hidden'/>
