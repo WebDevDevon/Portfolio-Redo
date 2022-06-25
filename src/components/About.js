@@ -18,7 +18,7 @@ export default function About() {
                     <p className='hidden mb-4 text-left xs:mb-6 md:block'>
                     Programming allows me to Showcase my Artistic Capabilities, and that makes me ecstatic at what my future skillset can achieve. I want to be working with cutting-edge technology and building tools that will leave people amazed everytime they visit A site I've worked on or created. The most fufilling thing about programming is manifesting your vision and your ideas. That's why I am passionate about programming. 
                     </p>
-                    <p className='mb-4 text-left xs:mb-6'>When I'm not coding, I like to play competitive games online, Collect cards such as Pokemon and NBA Prizm, and create art with Photoshop and Clip studio paint.</p>
+                    <p className='mb-4 text-left xs:mb-6'>Outside of coding I like to play competitive games online, Collect cards such as Pokemon and NBA Prizm, and create art with Photoshop and Clip studio paint.</p>
                     <div className='px-3 py-2 text-gray-400 border-l-8 border-hotpink-200 bg-denim xs:py-4 xs:px-6'>
                         {/* <img className='rounded-x4 h-64 mb-5' src={Code} alt="" />
                         <img className='rounded-x4 h-64 mb-5' src={Code} alt="" /> */}
