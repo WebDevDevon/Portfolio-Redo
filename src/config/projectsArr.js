@@ -70,4 +70,4 @@ export const projects = [
 //         type: 'SPA',
 //         description: 'An amped up Todo List dashboard. Users can perform basic CRUD operations.'
 //     }
-// ]
+ ]
