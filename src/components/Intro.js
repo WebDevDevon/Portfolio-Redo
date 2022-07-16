@@ -3,12 +3,17 @@ import { Link } from 'react-scroll';
 import arrowDown from '../assets/gif/arrow-down.gif';
 import SocialLinks from './SocialLinks';
 import './intro.css';
+import Glow from '../assets/png/Glow.png';
+import Glow2 from '../assets/png/Glow2.png';
 
 export default function Intro() {
 
   return (
-    <div className='relative flex flex-col justify-center h-screen' data-aos="flip-left" data-aos-duration="2500">
-      <div className='flex flex-col items-start px-6 text-white xs:items-center xs:max-w-2xl sm:mx-auto z-[1]'>
+    <>
+     <img className='glow' src={Glow} />
+    <img className='glow2' src={Glow2} /> 
+    <div className='relative flex flex-col justify-center h-screen z-1'>
+      <div className='flex flex-col items-start px-6 text-white xs:items-center xs:max-w-2xl sm:mx-auto z-100'  data-aos="flip-left" data-aos-duration="2500">
         <div
         >
           {/* <h2 className='text-4xl font-archivo xs:text-center bg-clip-text bg-gradient-to-r test'>Hello, I'm</h2> */}
@@ -23,6 +28,9 @@ export default function Intro() {
         </div>
       </div>
       <img className='absolute w-12 h-auto -translate-x-1/2 md:w-16 bottom-10 left-1/2' src={arrowDown} alt="Animated down arrow" />
+      
     </div>
+    
+    </>
   )
 }

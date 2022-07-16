@@ -2,3 +2,47 @@
  color: aliceblue;
  background-color: lightgrey;
 }
+
+.glow {
+    z-index: 0;
+    position: absolute;
+    left: 0px;
+    height: 900px;
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    35% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+.glow2 {
+    z-index: 0;
+    position: absolute;
+    right: 0px;
+    height: 900px;
+    animation: fadein 5s;
+}
+
+@keyframes fadein {
+    35% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@media screen and (max-width: 1800px) {
+    .glow {
+        display: none;
+
+    }
+    .glow2 {
+        display: none;
+    }
+}
