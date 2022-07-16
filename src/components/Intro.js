@@ -10,8 +10,8 @@ export default function Intro() {
 
   return (
     <>
-     <img className='glow' src={Glow} />
-    <img className='glow2' src={Glow2} /> 
+     <img className='glow' src={Glow} alt="glow"/>
+    <img className='glow2' src={Glow2} alt="glow2" /> 
     <div className='relative flex flex-col justify-center h-screen z-1'>
       <div className='flex flex-col items-start px-6 text-white xs:items-center xs:max-w-2xl sm:mx-auto z-100'  data-aos="flip-left" data-aos-duration="2500">
         <div
