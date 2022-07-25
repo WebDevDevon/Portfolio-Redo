@@ -4,6 +4,7 @@ import Viewer from 'react-viewer';
 import Code from '../assets/png/coding.jpg';
 import Paint from '../assets/png/Paint.png';
 import Banner from '../assets/png/Banner.png';
+import './about.css';
 
 
 
@@ -13,7 +14,7 @@ export default function About() {
     let images = [
       {
         src: Code,
-        title: "image title 1"
+        title: "image title 1",
       },
       {
         src: Banner,
@@ -45,7 +46,7 @@ export default function About() {
                     <div className='px-3 py-2 text-gray-400 border-l-8 border-hotpink-200 bg-denim xs:py-4 xs:px-6'>
                         <div>
                             <h1 className='text-center'>Things I've Created</h1>
-                            <div className='flex'>
+                            <div className='flex '>
                                 {images.map((item, index) => {
                                 return (
                                     <div key={index.toString()} className="img-item m-5">
@@ -53,6 +54,7 @@ export default function About() {
                                         alt="aaaaa"
                                         src={item.src}
                                         width="400px"
+                                        className='viewer'
                                         onClick={() => {
                                         setVisible(true);
                                         setActiveIndex(index);
