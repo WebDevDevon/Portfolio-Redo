@@ -12,6 +12,7 @@ import emailjs from 'emailjs-com';
 
 export default function Contact() {   
 
+
     const sendEmail = (e) => {
         e.preventDefault();
     
@@ -79,7 +80,7 @@ export default function Contact() {
                     <button
                         className="px-6 py-2 mb-8 text-black font-bold transition-all duration-150 ease-linear rounded-lg shadow outline-none xxs:w-full md:text-lg active:bg-hotpink-100 hover:bg-green-600 hover:text-white hover:scale-105 hover:shadow-lg focus:outline-none bg-hotpink-200"
                         type="submit">
-                        Send a message
+                        Send A Message
                     </button>
                     <SocialLinks />
                 </div>

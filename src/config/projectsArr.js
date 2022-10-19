@@ -37,37 +37,4 @@ export const projects = [
         type: 'SPA',
         description: 'A TODO app to manage tasks.'
     },
-//     {
-//         id: 4, 
-//         title: 'Restaurant Site',
-//         query: 'restaurant-site',
-//         img_url: toDo,
-//         tech: 'HTML | SCSS | JavaScript | Git | Webpack',
-//         live_url: 'https://nathankim137311.github.io/restaurant-page/',
-//         github_url: 'https://github.com/nathankim137311/restaurant-page',
-//         type: 'MPA',
-//         description: 'A custom-designed restaurant site that utilizes Google Maps API.'
-//     },
-//     {
-//         id: 5,
-//         title: 'Smash Bot',
-//         query: 'smash-bot',
-//         img_url: toDo,
-//         tech: 'JavaScript | Node | Docker | SQL | Git | Postman',
-//         live_url: '',
-//         github_url: 'https://github.com/nathankim137311/LiquidHacksBot',
-//         type: 'BOT',
-//         description: 'A game that allows players to fight with their favorite smash characters against their friends.'
-//     },
-//     {
-//         id: 6,
-//         title: 'Todo App',
-//         query: 'todo-app',
-//         img_url: toDo,
-//         tech: 'HTML | SCSS | JavaScript | Git | Webpack',
-//         live_url: 'https://nathankim137311.github.io/todo-app',
-//         github_url: 'https://github.com/nathankim137311/todo-app',
-//         type: 'SPA',
-//         description: 'An amped up Todo List dashboard. Users can perform basic CRUD operations.'
-//     }
  ]
