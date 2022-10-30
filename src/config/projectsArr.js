@@ -47,6 +47,6 @@ export const projects = [
         live_url: 'https://super-pika-a32366.netlify.app/',
         github_url: 'https://github.com/WebDevDevon/pokemon-type-demo',
         type: 'SPA',
-        description: 'fetches types data on my mongo database through an api hosted on heroku.'
+        description: 'fetches data from my mongo database through an api hosted on heroku.'
     },
  ]
