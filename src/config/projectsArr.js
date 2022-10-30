@@ -2,6 +2,7 @@
 import toDo from '../assets/gif/toDo.gif';
 import pokemon from '../assets/gif/Pokemon.gif';
 import cryptowatch from '../assets/gif/cryptowatch.gif';
+import types from '../assets/gif/types.gif';
 
 export const projects = [
     {
@@ -36,5 +37,16 @@ export const projects = [
         github_url: 'https://github.com/WebDevDevon/TaskSite',
         type: 'SPA',
         description: 'A TODO app to manage tasks.'
+    },
+    {
+        id: 4,
+        title: 'Types App',
+        query: 'types app',
+        img_url: types,
+        tech: 'HTML | CSS | JavaScript | Git ',
+        live_url: 'https://super-pika-a32366.netlify.app/',
+        github_url: 'https://github.com/WebDevDevon/pokemon-type-demo',
+        type: 'SPA',
+        description: 'A app that fetches data on my mongo database through an api hosted on heroku.'
     },
  ]
