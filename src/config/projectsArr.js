@@ -36,7 +36,7 @@ export const projects = [
         live_url: 'https://taskstrackerdev.netlify.app/',
         github_url: 'https://github.com/WebDevDevon/task-tracker',
         type: 'Full Stack',
-        description: 'A note app to manage tasks.'
+        description: 'A full stack note app to manage tasks.'
     },
     {
         id: 4,
