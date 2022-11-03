@@ -44,7 +44,7 @@ export const projects = [
         query: 'types app',
         img_url: types,
         tech: 'HTML | CSS | JavaScript | Git ',
-        live_url: 'https://super-pika-a32366.netlify.app/',
+        live_url: 'https://pokemontypefacts.netlify.app/',
         github_url: 'https://github.com/WebDevDevon/pokemon-type-demo',
         type: 'SPA',
         description: 'fetches data from my mongo database through an api hosted on heroku.'
