@@ -1,5 +1,5 @@
 // import discordLogo from '../assets/png/discord_logo.png'
-import toDo from '../assets/gif/toDo.gif';
+import task from '../assets/gif/tasktracker.gif';
 import pokemon from '../assets/gif/Pokemon.gif';
 import cryptowatch from '../assets/gif/cryptowatch.gif';
 import types from '../assets/gif/types.gif';
@@ -29,14 +29,14 @@ export const projects = [
     },
     {
         id: 3,
-        title: 'TODO App',
-        query: 'todo-app',
-        img_url: toDo,
-        tech: 'HTML | SCSS | JavaScript | Git ',
-        live_url: 'https://dailytasksandtodos.netlify.app/',
-        github_url: 'https://github.com/WebDevDevon/TaskSite',
-        type: 'SPA',
-        description: 'A TODO app to manage tasks.'
+        title: 'Note App',
+        query: 'note-app',
+        img_url: task,
+        tech: 'React | MongoDB | Express | NodeJS | Git',
+        live_url: 'https://taskstrackerdev.netlify.app/',
+        github_url: 'https://github.com/WebDevDevon/task-tracker',
+        type: 'Full Stack',
+        description: 'A note app to manage tasks.'
     },
     {
         id: 4,
