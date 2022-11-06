@@ -18,7 +18,7 @@ export default function Intro() {
         >
           {/* <h2 className='text-4xl font-archivo xs:text-center bg-clip-text bg-gradient-to-r test'>Hello, I'm</h2> */}
           <h1 className='text-6xl text-transparent font-archivo xs:text-center bg-clip-text bg-gradient-to-r from-violet to-hotpink-200'>Devon Batemon</h1>
-          <p className='mt-4 mb-8 text-lg text-slate-300 xs:text-xl xs:text-center'>I am a <strong className='text-hotpink-200'>Software Developer</strong> that builds and designs responsive web applications.</p>
+          <p className='mt-4 mb-8 text-lg text-slate-300 xs:text-xl xs:text-center'>I am a <strong className='text-hotpink-200'>Full Stack Developer</strong> that builds and designs responsive web applications.</p>
         </div>
         <div 
           className='flex items-center w-full sm:w-1/2 drop-shadow-lg xs:justify-center'
