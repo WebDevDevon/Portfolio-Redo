@@ -38,7 +38,7 @@ export default function About() {
                 className='px-4 py-10 bg-space rounded-xl xs:py-14 xs:px-8'
             >
                 <div className='text-base xs:text-lg text-slate-300 md:text-xl'>
-                    <p className='mb-4 text-left xs:mb-6'>I am a software developer that has a background in digital art. I combine my skills as an artist and my passion for technology to make my ideas come to life. <strong className='font-bold text-hotpink-200'>I am a creator</strong>.</p>
+                    <p className='mb-4 text-left xs:mb-6'>I am a full stack developer that has a background in digital art. I combine my skills as an artist and my passion for technology to make my ideas come to life. <strong className='font-bold text-hotpink-200'>I am a creator</strong>.</p>
                     <p className='hidden mb-4 text-left xs:mb-6 md:block'>
                     Programming allows me to showcase my artistic capabilities, and that makes me ecstatic at what my ever-growing skillset can achieve. I want to be working with cutting-edge technology and building tools that will leave people amazed everytime they visit a site I've worked on or created. The most fufilling thing about programming is manifesting your vision and your ideas. That's why I am passionate about programming. 
                     </p>
