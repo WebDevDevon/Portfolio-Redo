@@ -1,7 +1,7 @@
 import React from 'react'
 import { BsLinkedin, BsGithub, BsTwitter, } from 'react-icons/bs';
 import { GiScrollUnfurled } from 'react-icons/gi';
-import resume from '../assets/Devon-Batemon.pdf'
+import resume from '../assets/Devon-Batemon-.pdf'
 
 export default function SocialLinks() {
   return (
