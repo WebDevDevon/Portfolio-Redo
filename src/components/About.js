@@ -1,9 +1,10 @@
 import Heading from './Heading';
 import React, { useState } from "react";
 import Viewer from 'react-viewer';
-import Code from '../assets/png/coding.jpg';
+// import Code from '../assets/png/coding.jpg';
 import Paint from '../assets/png/Paint.png';
 import Banner from '../assets/png/Banner.png';
+import Vid from '../assets/gif/test_1.gif'
 import './about.css';
 
 
@@ -12,10 +13,10 @@ export default function About() {
     const [activeIndex, setActiveIndex] = useState(0);
     const [visible, setVisible] = useState(false);
     let images = [
-      {
-        src: Code,
-        title: "image title 1",
-      },
+    //   {
+    //     src: Code,
+    //     title: "image title 1",
+    //   },
       {
         src: Banner,
         title: "image title 2"
@@ -47,13 +48,14 @@ export default function About() {
                         <div>
                             <h1 className='text-center'>Things I've Created</h1>
                             <div className='flex '>
+                            <img width="260px" alt='aaaa' src={Vid}></img>
                                 {images.map((item, index) => {
                                 return (
                                     <div key={index.toString()} className="img-item m-5">
                                     <img
                                         alt="aaaaa"
                                         src={item.src}
-                                        width="400px"
+                                        // width="400px"
                                         className='viewer'
                                         onClick={() => {
                                         setVisible(true);
